@@ -6,21 +6,27 @@ This project is the weekly challenge for week 16 of the Data Science Bootcamp. I
 
 ### Purpose
 
-To analyze Amazon reviews written by members fo the paid Amazon Vine program and determine whether it biases the value of the review.
+To analyze Amazon reviews written by members of the paid Amazon Vine program and determine whether it biases the value of the reviews.
 
 ## Results
 
 The following files are part of the challenge deliverables:
 
+-[Amazon_Reviews_ETL.ipynb](./Amazon_Reviews_ETL.ipynb) : Jupyter book with Deliverable 1 ETL. Loaded from Google Colaboratory.
 
+-[Vine_Review_Analysis.ipynb](./Vine_Review_Analysis.ipynb) : Deliverable 2, Vine reviews analysis. Loaded from Google Colaboratory.
 
 ### Deliverable 1: Perform ETL on Amazon Product Reviews
 
-I created an AWD RDS database and using Google colab, loaded the following dataset to it.
+I created an AWD RDS database and, using Google Colaboratory, loaded the following dataset to it.
 
-https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Software_v1_00.tsv.gz
+Steps can be followed in file [Amazon_Reviews_ETL.ipynb](./Amazon_Reviews_ETL.ipynb)
 
-After loading, the DataFrame shape was (341931, 15)
+I elected to analyze the datase: 
+
+`https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Software_v1_00.tsv.gz`
+
+After loading, the DataFrame shape was (341931, 15).
 
 Below is a snapshot of the Colab document with the dataframe loaded.
 
